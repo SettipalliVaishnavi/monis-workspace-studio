@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+# Monis Workspace Studio
+
+An interactive workspace designer built for the Desent Solutions Developer Challenge. Users can customize their workspace, preview their furniture selections, and calculate estimated rental costs.
+
+## Features
+
+- Choose from three desk options and three chair options.
+- Add or remove monitors, desk lamps, plants, keyboards, and laptop stands.
+- View a workspace preview that updates with selections.
+- Review selected furniture and accessories in a checkout summary.
+- Select rental durations of 1, 7, 14, or 30 days.
+- Automatically calculate the estimated rental price.
+- Responsive interface for desktop and mobile screens.
+
+## Tech Stack
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Git and GitHub
+- Vercel
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+Install Node.js and npm.
+
+### Installation
+
+Clone the repository:
 
 ```bash
+git clone https://github.com/SettipalliVaishnavi/monis-workspace-studio.git
+cd monis-workspace-studio
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Approach
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+I used Next.js, React state, TypeScript, and Tailwind CSS to build an interactive workspace customization experience. Users can select furniture, add accessories, see the preview update, and review estimated rental costs.
 
-## Learn More
+## Future Improvements
 
-To learn more about Next.js, take a look at the following resources:
+- Add realistic furniture images and richer previews.
+- Integrate a backend for product availability and rental enquiries.
+- Add real booking and payment functionality.
+- Include automated tests and accessibility improvements.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Demo Notice
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This is a demonstration project. Rental prices are illustrative, and the enquiry button does not create real bookings or process payments.
